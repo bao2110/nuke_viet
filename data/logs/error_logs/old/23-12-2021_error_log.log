@@ -1,0 +1,8 @@
+[Thu, 23 Dec 2021 22:19:28 +0700] [localhost] [::1] [Warning(2): Use of undefined constant NV_CURRENTIME - assumed 'NV_CURRENTIME' (this will throw an Error in a future version of PHP)] [FILE: /modules/managerbackup/admin/main.php] [LINE: 45]
+[Thu, 23 Dec 2021 22:19:28 +0700] [localhost] [::1] [Error(1): Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'NV_CURRENTIME' in 'field list' in C:\xampp\htdocs\nukeviet\vendor\vinades\nukeviet\Core\Database.php:520
+Stack trace:
+#0 C:\xampp\htdocs\nukeviet\vendor\vinades\nukeviet\Core\Database.php(520): PDO->prepare('INSERT INTO `us...', Array)
+#1 C:\xampp\htdocs\nukeviet\modules\managerbackup\admin\main.php(46): NukeViet\Core\Database->prepare('INSERT INTO `us...')
+#2 C:\xampp\htdocs\nukeviet\admin\index.php(175): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown] [FILE: /vendor/vinades/nukeviet/Core/Database.php] [LINE: 520]

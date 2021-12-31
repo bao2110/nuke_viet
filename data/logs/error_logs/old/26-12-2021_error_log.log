@@ -1,0 +1,12 @@
+[Sun, 26 Dec 2021 19:59:15 +0700] [localhost] [::1] [Notice(8): Undefined variable: errorMsg1] [FILE: /modules/managerbackup/funcs/main.php] [LINE: 72]
+[Sun, 26 Dec 2021 19:59:15 +0700] [localhost] [::1] [Notice(8): Undefined variable: errorMsg2] [FILE: /modules/managerbackup/funcs/main.php] [LINE: 73]
+[Sun, 26 Dec 2021 19:59:15 +0700] [localhost] [::1] [Notice(8): Undefined variable: errorMsg3] [FILE: /modules/managerbackup/funcs/main.php] [LINE: 74]
+[Sun, 26 Dec 2021 21:09:29 +0700] [localhost] [::1] [Error(1): Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\nukeviet\vendor\vinades\nukeviet\Core\Database.php:495
+Stack trace:
+#0 C:\xampp\htdocs\nukeviet\vendor\vinades\nukeviet\Core\Database.php(495): PDO->query('SELECT id, titl...')
+#1 C:\xampp\htdocs\nukeviet\modules\managerbackup\admin\main.php(25): NukeViet\Core\Database->query('SELECT id, titl...')
+#2 C:\xampp\htdocs\nukeviet\admin\index.php(175): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown] [FILE: /vendor/vinades/nukeviet/Core/Database.php] [LINE: 495]
+[Sun, 26 Dec 2021 21:11:09 +0700] [localhost] [::1] [Notice(8): Undefined index: district_id] [FILE: /modules/managerbackup/admin/main.php] [LINE: 31]
+[Sun, 26 Dec 2021 21:12:23 +0700] [localhost] [::1] [Notice(8): Undefined index: district_id] [FILE: /modules/managerbackup/admin/main.php] [LINE: 30]

@@ -1,0 +1,9 @@
+[Mon, 27 Dec 2021 16:03:53 +0700] [localhost] [::1] [Error(1): Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\nukeviet\vendor\vinades\nukeviet\Core\Database.php:495
+Stack trace:
+#0 C:\xampp\htdocs\nukeviet\vendor\vinades\nukeviet\Core\Database.php(495): PDO->query('SELECT id, titl...')
+#1 C:\xampp\htdocs\nukeviet\modules\managerbackup\admin\main.php(26): NukeViet\Core\Database->query('SELECT id, titl...')
+#2 C:\xampp\htdocs\nukeviet\admin\index.php(175): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown] [FILE: /vendor/vinades/nukeviet/Core/Database.php] [LINE: 495]
+[Mon, 27 Dec 2021 16:08:51 +0700] [localhost] [::1] [Notice(8): Undefined variable: htmlward] [FILE: /modules/managerbackup/admin/main.php] [LINE: 41]
+[Mon, 27 Dec 2021 16:15:36 +0700] [localhost] [::1] [Notice(8): Undefined variable: html] [FILE: /modules/managerbackup/admin/main.php] [LINE: 49]
